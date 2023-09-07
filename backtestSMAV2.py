@@ -3,7 +3,7 @@ import yfinance as yf
 import pandas as pd
 import streamlit as st
 import numpy as np
-import talib
+#import talib
 import datetime
 
 # Function to validate the date format
@@ -37,9 +37,11 @@ def get_data (ticker, benchmark):
 
 
 def get_signal(df):
-
-    df['slow_ma'] = talib.SMA(df[ticker], slow_ma)
-    df['fast_ma'] = talib.SMA(df[ticker], fast_ma)
+    
+    df['slow_ma'] = df[ticker].rolling(window=slow_ma).mean()
+    df['fast_ma'] = df[ticker].rolling(window=fast_ma).mean()
+    #df['slow_ma'] = talib.SMA(df[ticker], slow_ma)
+    #df['fast_ma'] = talib.SMA(df[ticker], fast_ma)
     #df = df[~df['slow_ma'].isnull()]
     df = df.assign(
         signal = lambda x: np.where(x.fast_ma > x.slow_ma, 1, 0)
