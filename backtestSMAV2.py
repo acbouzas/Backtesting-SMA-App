@@ -3,10 +3,8 @@ import yfinance as yf
 import pandas as pd
 import streamlit as st
 import numpy as np
-import plotly as px
 import talib
 import datetime
-from ipdb import set_trace
 
 # Function to validate the date format
 def is_valid_date(date_str):
