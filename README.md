@@ -12,15 +12,6 @@ Access the app by clicking here: https://backtesting-sma.streamlit.app/
 This application helps you backtest the moving average crossover popular strategyby and compare it with a buy-and-hold strategy.
 The app will display the backtested results, including the total return and a chart showing the strategy's performance.
 
-## Requirements
-
-Before running the code, you need to install the following Python libraries:
-
-- yfinance
-- pandas
-- streamlit
-- numpy
-
 ## How It Works
 
 Here's an example of how the app works:
@@ -34,3 +25,12 @@ Here's an example of how the app works:
 4. Choose a benchmark (e.g., SPY).
 
 5. Enjoy the results!
+
+## Requirements
+
+Before running the code, you need to install the following Python libraries:
+
+- yfinance
+- pandas
+- streamlit
+- numpy
