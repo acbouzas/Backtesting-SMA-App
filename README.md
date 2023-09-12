@@ -1,16 +1,12 @@
 # Backtesting-SMA-App
-Backtest your Crossover SMA Strategy for your desired Asset with this webapp
-
-# Fast/Slow SMA CrossOver - Backtesting App
-
-This is a Python application that performs backtesting for a Fast/Slow Simple Moving Average (SMA) crossover trading strategy. It allows users to choose an asset, benchmark, and SMA values to compare the strategy's performance against a buy-and-hold strategy.
-
-Access the app by clicking here: https://backtesting-sma.streamlit.app/
+Backtest your Fast/Slow SMA CrossOver Strategy for your desired Asset with this web app.
 
 ## Introduction
 
-This application helps you backtest the moving average crossover popular strategyby and compare it with a buy-and-hold strategy.
-The app will display the backtested results, including the total return and a chart showing the strategy's performance.
+This application helps you backtest the popular 'Fast/Slow SMA crossover' strategy and compare it with a buy-and-hold strategy and a choosen benchmark.
+It displays the backtested results, including the total return and a chart showing the strategy's performance.
+
+Access the app by clicking here: https://backtesting-sma.streamlit.app/
 
 ## How It Works
 
