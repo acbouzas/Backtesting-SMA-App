@@ -8,6 +8,8 @@ It displays the backtested results, including the total return and a chart showi
 
 Access the app by clicking here: https://backtesting-sma.streamlit.app/
 
+![screenshot](https://github.com/acbouzas/Backtesting-SMA-App/blob/main/images/App%20Screenshot.png)
+
 ## How It Works
 
 Here's an example of how the app works:
